@@ -20,8 +20,12 @@ body {
 
 .Line-Navigation ul li{
   float:left;
+  font-family: 'Handlee', cursive;
   padding:0 20px;
-  font:400 25px/50px 'ATC Overlook';
+  /*font:400 25px/50px;*/
+  font-weight:400;
+  font-size: 25px;
+  padding-top:10px;
   transition:all 0.5s;
   -webkit-transition:all 0.5s;
   overflow:hidden;
