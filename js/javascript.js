@@ -15,7 +15,7 @@ $overlay.append($image);
 $overlay.append($caption);
 
 //Add id 'imageGallery' to the list elements [I made this line by myself!!]
-$('li').attr('id', 'imageGallery');
+$('.gallery li').attr('id', 'imageGallery');
 
 //Capture the click event on a link to an image
 $("#imageGallery a").click(function(event){
